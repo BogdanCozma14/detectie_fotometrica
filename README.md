@@ -1,7 +1,7 @@
 # Detecția automată a obiectelor în imagini fotometrice
 
 Modul software în Python pentru identificarea automată a surselor 
-astronomice în imagini fotometrice obținute în astrometrie. Lucrare de 
+astronomice în imagini fotometrice obținute în astrometrie.
 
 ## Descriere
 
