@@ -65,13 +65,11 @@ proiect/
 ├── afisare.py             # Vizualizare Matplotlib pentru CLI
 ├── main.py                # Orchestrator CLI
 ├── app.py                 # Interfață grafică Streamlit
-├── crop_imagine.py        # Script auxiliar (cutout regiuni
-│                            din imagini mari)
+├── requirements.txt       # Dependențe Python fixate exact
+├── crop_imagine.py        # Script auxiliar (cutout regiuni din imagini mari)
 ├── genereaza_sintetic.py  # Script auxiliar (generare imagine
 │                            sintetică pentru evaluare cantitativă)
-├── evalueaza_sintetic.py  # Script auxiliar (matching +
-│                            completeness + rata false pozitive)
-├── requirements.txt       # Dependențe Python fixate exact
+├── evalueaza_sintetic.py  # Script auxiliar (matching +  completeness + rata false pozitive)
 ├── .streamlit/
 │   └── config.toml        # Configurare upload până la 500 MB
 └── fits_files/            # Director cu imagini FITS pentru testare
