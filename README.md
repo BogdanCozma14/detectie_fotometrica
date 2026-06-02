@@ -26,8 +26,8 @@ bazată pe Streamlit cu vizualizări Plotly.
 Necesar: Python 3.13 (recomandat) sau compatibil.
 
 ```bash
-git clone <URL-repository>
-cd proiect
+git clone https://github.com/BogdanCozma14/detectie_fotometrica
+cd detectie_fotometrica
 pip install -r requirements.txt
 ```
 
@@ -35,7 +35,9 @@ Versiunile bibliotecilor sunt fixate exact în `requirements.txt` pentru
 reproductibilitatea rezultatelor.
 
 ## Utilizare
-
+```bash
+python main.py
+```
 ### Dacă se rulează fișierul main.py, se vor vedea rezultatele in Matplotlib
 ### Procesează fișierul setat în variabila `fisier_ales` din `main.py` și 
 ### afișează cele patru etape ale procesării prin Matplotlib, exportând 
@@ -53,6 +55,7 @@ streamlit run app.py
 ### interactiv, cu zoom, pan și hover, în taburi separate.
 
 ## Structura proiectului
+```
 proiect/
 ├── config.py              # Parametri globali (FWHM, prag detecție, etc.)
 ├── preprocesare.py        # Citire FITS + estimare background
@@ -72,7 +75,7 @@ proiect/
 ├── .streamlit/
 │   └── config.toml        # Configurare upload până la 500 MB
 └── fits_files/            # Director cu imagini FITS pentru testare
-
+```
 ## Date de intrare
 
 Modulul acceptă fișiere FITS standard 2D (extensii `.fits` sau `.fit`) 
