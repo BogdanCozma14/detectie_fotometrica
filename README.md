@@ -67,8 +67,7 @@ proiect/
 ├── app.py                 # Interfață grafică Streamlit
 ├── requirements.txt       # Dependențe Python fixate exact
 ├── crop_imagine.py        # Script auxiliar (cutout regiuni din imagini mari)
-├── genereaza_sintetic.py  # Script auxiliar (generare imagine
-│                            sintetică pentru evaluare cantitativă)
+├── genereaza_sintetic.py  # Script auxiliar (generare imagine sintetică pentru evaluare cantitativă)
 ├── evalueaza_sintetic.py  # Script auxiliar (matching +  completeness + rata false pozitive)
 ├── .streamlit/
 │   └── config.toml        # Configurare upload până la 500 MB
@@ -105,7 +104,7 @@ identifică 254 de surse corect, cu zero false pozitive, rezultând o rată
 de detecție completă (completeness) de 92.7%. Sursele ratate sunt în 
 majoritate sub pragul efectiv de detecție configurat la 10σ peste fond.
 
-Catalogul exportat conține pentru fiecare sursă:
+Catalogul exportat conține pentru fiecare sursă identificată de algoritmul DAO:
 - coordonatele pixel (x, y)
 - valoarea maximă a pixelului central
 - fluxul brut DAO și magnitudinea instrumentală
